@@ -1,5 +1,6 @@
 import turtle
 
+
 def square(ninja):
     for _ in range(4):
         ninja.forward(20)
