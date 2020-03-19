@@ -48,12 +48,12 @@ print(day_name(day_num("Wednesday")) == "Wednesday")
 print(day_num(day_name(2)) == 2)
 
 # exercise 4
-day_add("Monday", 4) ==  "Friday"
-day_add("Tuesday", 0) == "Tuesday"
-day_add("Tuesday", 14) == "Tuesday"
-day_add("Sunday", 100) == "Tuesday"
+print(day_add("Monday", 4) ==  "Friday")
+print(day_add("Tuesday", 0) == "Tuesday")
+print(day_add("Tuesday", 14) == "Tuesday")
+print(day_add("Sunday", 100) == "Tuesday")
 
 # exercise 5
-day_add("Sunday", -1) == "Saturday"
-day_add("Sunday", -7) == "Sunday"
-day_add("Tuesday", -100) == "Sunday"
+print(day_add("Sunday", -1) == "Saturday")
+print(day_add("Sunday", -7) == "Sunday")
+print(day_add("Tuesday", -100) == "Sunday")
