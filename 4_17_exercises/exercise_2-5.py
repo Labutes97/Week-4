@@ -1,6 +1,7 @@
 day_names = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
 
 
+# exercise 2
 def day_name(day_number):
 
     # check input
@@ -10,6 +11,7 @@ def day_name(day_number):
     return day_names[day_number]
 
 
+# exercise 3
 def day_num(day_name):
 
     # check input
