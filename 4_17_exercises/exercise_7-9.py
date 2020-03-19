@@ -15,6 +15,10 @@ def minutes_in(seconds):
     return (seconds % 3600) // 60
 
 
+def seconds_in(seconds):
+    return seconds % 60
+
+
 # tests
 
 # exercise 7
@@ -31,3 +35,4 @@ print(to_secs(2.433,0,0) == 8758)
 # exercise 9
 print(hours_in(9010) == 2)
 print(minutes_in(9010) == 30)
+print(seconds_in(9010) == 10)
