@@ -52,3 +52,8 @@ day_add("Monday", 4) ==  "Friday"
 day_add("Tuesday", 0) == "Tuesday"
 day_add("Tuesday", 14) == "Tuesday"
 day_add("Sunday", 100) == "Tuesday"
+
+# exercise 5
+day_add("Sunday", -1) == "Saturday"
+day_add("Sunday", -7) == "Sunday"
+day_add("Tuesday", -100) == "Sunday"
