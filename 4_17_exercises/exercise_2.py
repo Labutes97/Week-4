@@ -10,7 +10,22 @@ def day_name(day_number):
     return day_names[day_number]
 
 
+def day_num(day_name):
+
+    # check input
+    if day_name not in day_names:
+        return None
+
+    return day_names.index(day_name)
+
+
 # tests
 print(day_name(0) == "Sunday")
 print(day_name(6) == "Saturday")
 print(day_name(8) is None)
+
+print(day_num("Sunday") == 0)
+print(day_num("March") is None)
+
+print(day_name(day_num("Wednesday")) == "Wednesday")
+print(day_num(day_name(2)) == 2)
